@@ -8,10 +8,10 @@ public class Calc {
         while (refaz == 1){
         System.out.println("Solicite a opcao de calculo:");
         System.out.println("""
-                1- Soma
-                2-Subtração
-                3-Multiplicacao
-                4-Divisao""");
+                (1) Soma
+                (2) Subtração
+                (3) Multiplicacao
+                (4) Divisao""");
 
         int opcao = ler.nextInt();
             ler.nextLine();

@@ -16,9 +16,9 @@ public class Bank {
             System.out.println("Saldo: " + saldo);
             System.out.println("""
                     =======================
-                    (1)depositar
-                    (2)sacar
-                    (3)sair
+                    (1) depositar
+                    (2) sacar
+                    (3) sair
                     """);
             int resposta = ler.nextInt();
             if (resposta == 1) {
